@@ -272,7 +272,7 @@ go build -o server
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please read [CONTRIBUTING.md](docs/CONTRIBUTING.md) for details.
+Contributions are welcome! 
 
 ### Adding New Algorithms
 1. Implement algorithm in `backend/algorithms/`
@@ -283,11 +283,11 @@ Contributions are welcome! Please read [CONTRIBUTING.md](docs/CONTRIBUTING.md) f
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Kulbhashkar Dwivedi/ VshX Intelligence**
 - GitHub: [@cybervarsh](https://github.com/NxtGen-VshX/)
 - LeetCode: [@cybervarsh](https://leetcode.com/NetGen-VshX/)
 
