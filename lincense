@@ -1,0 +1,150 @@
+Copyright (c) 2026 Kulbhashkar Dwivedi/cybervaesh/VshX Intelligence/NxtGen-Vshx
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+ATTRIBUTION REQUIREMENT:
+If you use this software, you MUST give credit to the original 
+author by keeping the copyright notice and mentioning the original 
+creator's name in your project's documentation or README file.
+
+EOF
+
+cat > /home/NxtGen-VshX/leetcode-visualizer/.gitignore << 'EOF'
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/vendor/
+/bin/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+EOF
+
+cat > /home/NxtGen-Vshx/leetcode-visualizer/docs/CONTRIBUTING.md << 'EOF'
+# Contributing to LeetCode Visualizer
+
+Thank you for your interest in contributing! 🎉
+
+## How to Contribute
+
+### 1. Fork the Repository
+Click the "Fork" button at the top right of the repository page.
+
+### 2. Clone Your Fork
+```bash
+git clone https://github.com/YOUR_USERNAME/leetcode-visualizer.git
+cd leetcode-visualizer
+```
+
+### 3. Create a Branch
+```bash
+git checkout -b feature/your-feature-name
+```
+
+### 4. Make Your Changes
+- Follow the existing code style
+- Add comments for complex logic
+- Test your changes thoroughly
+
+### 5. Commit Your Changes
+```bash
+git add .
+git commit -m "Add: Description of your changes"
+```
+
+### 6. Push to Your Fork
+```bash
+git push origin feature/your-feature-name
+```
+
+### 7. Create Pull Request
+Go to the original repository and click "New Pull Request"
+
+## Adding New Algorithms
+
+To add a new algorithm visualization:
+
+1. **Create Component** (`frontend/src/components/YourAlgorithm.jsx`)
+2. **Add Route** in `App.jsx`
+3. **Update Algorithm List** in `App.jsx`
+4. **Create Backend Handler** (if needed) in `backend/main.go`
+5. **Add Documentation** in `docs/ALGORITHMS.md`
+
+## Code Style
+
+### JavaScript/React
+- Use functional components
+- Use hooks (useState, useEffect)
+- Keep components under 300 lines
+- Add PropTypes or TypeScript
+
+### Go
+- Follow Go conventions
+- Use meaningful variable names
+- Add error handling
+- Write unit tests
+
+## Reporting Bugs
+
+Please open an issue with:
+- Description of the bug
+- Steps to reproduce
+- Expected behavior
+- Screenshots (if applicable)
+
+## Feature Requests
+
+Open an issue with:
+- Feature description
+- Use case
+- Mockups (optional)
+
+Thank you for contributing! 🙏
