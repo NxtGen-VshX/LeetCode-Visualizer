@@ -288,7 +288,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 👨‍💻 Author
 
 **Kulbhashkar Dwivedi/ VshX Intelligence**
-- GitHub: [@cybervarsh](https://github.com/NxtGen-VshX/)
+- GitHub: [@NxtGen-VshX](https://github.com/NxtGen-VshX/)
 - LeetCode: [@cybervarsh](https://leetcode.com/NetGen-VshX/)
 
 ## 🙏 Acknowledgments
